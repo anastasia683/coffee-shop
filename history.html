@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История кофейни Аромат | Наши традиции</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { background: #fef7ef; font-family: 'Inter', sans-serif; color: #2f241b; }
+        .navbar { background: #2c1e12 !important; }
+        .navbar-brand, .nav-link { color: #f5e2c1 !important; }
+        .nav-link.active { color: #e7b874 !important; }
+        .history-hero { 
+            background: linear-gradient(105deg, #2f231b, #4b311f);
+            padding: 4rem 0;
+            border-radius: 0 0 60px 60px;
+        }
+        .timeline-year { font-size: 2rem; font-weight: 800; color: #dba259; font-family: 'Playfair Display'; }
+        .story-card { background: white; border-radius: 32px; box-shadow: 0 8px 18px rgba(0,0,0,0.05); padding: 1.8rem; margin-bottom: 2rem; border-left: 6px solid #cc9c5e; }
+        .btn-history-back { background: #6f4a2e; color: white; border-radius: 40px; padding: 10px 30px; text-decoration: none; display: inline-block; }
+        .btn-history-back:hover { background: #8b5a3a; color: white; }
+        footer { background: #1f160f; color: #d9c7ae; margin-top: 4rem; padding: 2rem; text-align: center; }
+        .history-img {
+            width: 100%;
+            border-radius: 28px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-mug-hot"></i> Аромат</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="history.html">История</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="history-hero text-white text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Наша история</h1>
+            <p class="lead">От маленькой кофейни до места силы для ценителей</p>
+        </div>
+    </section>
+
+    <div class="container my-5">
+        <div class="row align-items-center g-5">
+            <div class="col-md-6">
+                <!-- ВАШЕ ФОТО ДЛЯ ИСТОРИИ -->
+                <img src="history-photo.jpg" class="history-img" alt="История кофейни">
+            </div>
+            <div class="col-md-6">
+                <h2 class="fw-bold">Как всё начиналось</h2>
+                <p class="mt-3">В 2012 году основатели, брат и сестра Алексей и Марина, открыли маленькую кофейню в центре города с одной зерновой обжаркой. Их страсть к кофе и уюту объединила гостей, и уже через год «Аромат» стал известен авторскими десертами и дружелюбным сервисом.</p>
+                <p>Сегодня кофейня — это семейная атмосфера, где каждый гость чувствует себя как дома. Мы бережно храним традиции и каждый день радуем свежей выпечкой, а также участвуем в благотворительных сборах.</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="fw-bold text-center mb-4"><i class="fas fa-timeline"></i> Важные вехи</h3>
+                <div class="timeline-year">2012</div>
+                <p>Открытие первой точки на 20 м², всего 3 столика и ручная кофемашина.</p>
+                <div class="timeline-year">2015</div>
+                <p>Расширение: собственное кондитерское производство и запуск уникального сорта кофе «Эфиопия Аромат».</p>
+                <div class="timeline-year">2019</div>
+                <p>Кофейня признана «Лучшим кофе в городе» по версии городского журнала.</p>
+                <div class="timeline-year">2024</div>
+                <p>Открытие второй локации и гастро-пространства для мастер-классов по завариванию кофе.</p>
+            </div>
+        </div>
+
+        <div class="story-card mt-4">
+            <h4><i class="fas fa-quote-left"></i> Философия «Аромата»</h4>
+            <p>Мы верим, что чашка кофе способна сближать людей. Отборные зёрна, натуральные сиропы и только дружелюбный сервис. «Аромат» — это больше, чем кофейня, это традиция гостеприимства, которую мы несём сквозь годы.</p>
+            <p class="mt-2"><i class="fas fa-heart text-danger"></i> С заботой о каждом госте, команда кофейни.</p>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="index.html" class="btn-history-back"><i class="fas fa-arrow-left"></i> Вернуться к меню</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Кофейня Аромат — тепло в каждой чашке</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
